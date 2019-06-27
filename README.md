@@ -6,7 +6,7 @@ It can be easily reproduced using Docker containers.
 
 This bug is present in Python 3.6.8 and 3.7.3 (both tested with Nuitka 0.6.4)
 
-###How to trigger the bug
+### How to trigger the bug
 
 In this case, we trigger two `Domain name not found` exception within aiodns. With the second one, we have the `RuntimeError: cannot reuse already awaited coroutine` exception.
 
